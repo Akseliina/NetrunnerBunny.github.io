@@ -1,22 +1,25 @@
   body {
     background-image: url(metstausta.jpg);
+    border: 2px dotted #CFB53B;
+    box-sizing: border-box;
     background-position: center;
     background-attachment: fixed;
+    padding: 30px;
+    font-family: sans-serif;
 
   }
 
   h1 {
     text-align: center;
     background-color: white;
-    font-family: sans-serif;
     font-size: 20px;
+    borde
 
   }
 
   h2 {
     text-align: center;
     background-color: white;
-    font-family: sans-serif;
     font-size: 15px;
 
   }
@@ -24,7 +27,6 @@
   h3 {
       text-align: center;
       background-color: white;
-      font-family: sans-serif;
       font-size: 15px;
 
   }
@@ -32,14 +34,12 @@
   h4 {
       text-align: center;
       color: #c5e1a5;
-      font-family: sans-serif;
       font-size: 15px;
 
   }
 
   p {
     color: #c5e1a5;
-    font-family: sans-serif;
     text-align: center;
     font-size: 12;
 
@@ -48,6 +48,7 @@
 
   ul {
     color: white;
+    font-size: 12px;
     columns: 2;
     display: inline-block;
     text-align: left;
@@ -57,6 +58,7 @@
 
   ol {
     color: white;
+    font-size: 12px;
     columns: 2;
     display: inline-block;
     text-align: left;
@@ -65,8 +67,6 @@
   }
 
   .munDiv {
-    border-style: dotted;
-    border-width: 2px;
     text-align: center;
 
   }
