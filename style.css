@@ -1,30 +1,32 @@
   body {
     background-image: url(metstausta.jpg);
-    border: 2px dotted #CFB53B;
-    box-sizing: border-box;
     background-position: center;
     background-attachment: fixed;
-    padding: 40px;
     font-family: sans-serif;
     text-align: center;
+    background-color: black;
 
   }
 
   h1 {
     background-color: white;
     font-size: 20px;
+    padding: 10px;
 
   }
 
   h2 {
     background-color: white;
     font-size: 15px;
+    opacity: 65%;
 
   }
 
   h3 {
     background-color: white;
-      font-size: 15px;
+    font-size: 15px;
+    opacity: 65%;
+
 
   }
 
@@ -36,7 +38,7 @@
 
   p {
     color: #c5e1a5;
-    font-size: 12;
+    font-size: 12px;
 
   }
 
@@ -47,6 +49,7 @@
     display: inline-block;
     text-align: left;
     list-style-type: square;
+    border: 2px dotted #CFB53B;
 
   }
 
@@ -59,12 +62,29 @@
 
   }
 
-  .munDiv {
+  /* .element {
+    width: 100px;
+    height: 100px;
 
-  }
+  } */
 
   .list {
     text-align: left;
     display: inline-block;
+  }
 
+  a {
+    color: white;
+  }
+
+  a:visited {
+    color: #654321;
+  }
+
+  a:hover {
+    color: #006400;
+  }
+
+  a:active {
+    color: #006400;
   }
