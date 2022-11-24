@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="fi">
   <head>
-    <title>Home</title>
+    <title>More bunny info</title>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="munDiv">
-     <main>
-       <a href="index.html">Etusivulle</a>
-       <h1>Enjoy your day!</h1>
-       <p>Pupun hampaat ei ikinä lakkaa kasvamasta. Jyrsiminen pitää huolen siitä että ne eivät kasva liian pitkiksi, mutta joskus lemmikkipupun hampaita saattaa joutua leikkaamaan.</p>
-        <figure>
-          <img src="bube.jpg" alt="Mustavalkoinen pupu" width="200">
-          <figcaption>Jopa pupuvauve on hämmästynyt tästä tiedosta</figcaption>
-        </figure>
-        <label for="bunnyevolve">Pupuvauvojen kasvumittari:</label>
-        <progress id="bunnyevolve" max="100" value="10">10%</progress>
-     </main>
+    <main>
+      <div id="header">
+        <header>
+          <h1>Enjoy your day!</h1>
+        </header>
+      </div>
+      <div id="nav">
+        <nav>
+          <ul class="navilista">
+            <li><a href="index.html" class="navi">Tervetuloa</a></li>
+            <li><a href="second.html" class="navi">Lisää pupujuttuja</a></li>
+            <li><a href="third.html" class="navi">Sälää</a></li>
+            <li><a href="fourth.html" class="navi">Kahvia</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="section">
+        <section>
+          <p>Pupun hampaat ei ikinä lakkaa kasvamasta. Jyrsiminen pitää huolen siitä että ne eivät kasva liian pitkiksi, mutta joskus lemmikkipupun hampaita saattaa joutua leikkaamaan.</p>
+          <article>
+            <figure>
+              <img src="bube.jpg" alt="Mustavalkoinen pupu" width="200">
+              <figcaption>Jopa pupuvauve on hämmästynyt tästä tiedosta</figcaption>
+            </figure>
+          </article>
+          <label for="bunnyevolve">Pupuvauvojen kasvumittari:</label>
+          <progress id="bunnyevolve" max="100" value="10">10%</progress>
+        </section>
+      </div>
+    </main>
+    <div id="footer">
+      <footer>
+        <a class="omaosoite" href="https://www.linkedin.com/in/petra-koskela-011082218/" target="_blank">Asiaan liittymätön Linkedin sivuni</a>
+      </footer>
     </div>
-    <footer>
-      <a href="https://www.linkedin.com/in/petra-koskela-011082218/" target="_blank">Asiaan liittymätön Linkedin sivuni</a>
-    </footer>
   </body>
 </html>

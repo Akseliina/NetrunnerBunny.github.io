@@ -1,47 +1,97 @@
   body {
     background-image: url(metstausta.jpg);
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
-    text-align: center;
     background-color: black;
+    text-align: center;
+    /*width: 90%;
+    margin-left: auto;
+    margin-right: auto;*/
+  }
+
+  #header {
+    background-color: black;
+    padding: 70px;
+    opacity: 50%;
+  }
+
+  .navilista {
+    columns: 4;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+
+  }
+
+  .navi {
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  #nav {
+    background-color: white;
+    padding: 20px;
+    opacity: 60%;
+  }
+
+  #section {
+    background-color: black;
+    padding: 60px;
+    opacity: 80%;
+  }
+
+  #footer {
+    background-color: black;
+    padding: 50px;
+    opacity: 50%;
+  }
+
+  .omaosoite {
+    color: white;
+  }
+
+  .omaosoite:visited {
+    color: white;
+  }
+
+  .omaosoite:hover {
+    color: white;
+  }
+
+  .omaosoite:active {
+    color: white;
   }
 
   h1 {
-    background-color: white;
-    font-size: 20px;
+    color: white;
+    font-size: 30px;
     padding: 10px;
-    border: 5px dotted #CFB53B;
-    border-radius: 7px
   }
 
-  h2 {
+  h2, h3 {
     background-color: white;
-    font-size: 15px;
-    opacity: 65%;
-  }
-
-  h3 {
-    background-color: white;
-    font-size: 15px;
-    opacity: 65%;
+    font-size: 25px;
+    opacity: 60%;
   }
 
   h4 {
       color: #c5e1a5;
-      font-size: 15px;
+      font-size: 20px;
     }
 
   p {
     color: #c5e1a5;
-    font-size: 12px;
+    font-size: 15px;
     /* border: 1px solid black;
     border-radius: 2px; */
   }
 
   ul {
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     columns: 2;
     display: inline-block;
     text-align: left;
@@ -50,7 +100,7 @@
 
   ol {
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     display: inline-block;
     text-align: left;
     /* list-style-type: lower-alpha; */
@@ -84,8 +134,4 @@
 
   a:active {
     color: #006400;
-  }
-
-  footer {
-    padding-top: 50px;
   }
