@@ -1,0 +1,168 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url(metstausta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    background-color: black;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #header {
+    background-color: black;
+    padding: 70px;
+    opacity: 50%;
+    width: 100%;
+  }
+
+  #sidebar {
+    height: 100vh;
+    background-color: black;
+    float: left;
+    width: 20%;
+    opacity: 50%;
+    padding: 20px;
+  }
+
+  .sidebar {
+    list-style: none;
+    text-decoration: none;
+
+  }
+
+  .navilista {
+    columns: 4;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+
+  }
+
+  .navi {
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  #nav {
+    background-color: white;
+    padding: 20px;
+    opacity: 65%;
+  }
+
+  #section {
+    background-color: black;
+    height: 100vh;
+    padding: 50px 160px;
+    opacity: 90%;
+    float: left;
+    width: 80%;
+
+  }
+
+  #footer {
+    background-color: black;
+    padding: 50px;
+    opacity: 20%;
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    height: 50px;
+  }
+
+  .omaosoite {
+    color: white;
+  }
+
+  .omaosoite:visited {
+    color: white;
+  }
+
+  .omaosoite:hover {
+    color: white;
+  }
+
+  .omaosoite:active {
+    color: white;
+  }
+
+  h1 {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  h2, h3 {
+    background-color: white;
+    font-size: 25px;
+    opacity: 60%;
+  }
+
+  h4 {
+      color: #c5e1a5;
+      font-size: 20px;
+    }
+
+  p {
+    color: #c5e1a5;
+    font-size: 15px;
+    /* border: 1px solid black;
+    border-radius: 2px; */
+  }
+
+  ul {
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    list-style-type: square;
+    }
+
+  .list {
+    columns: 2;
+  }
+
+  ol {
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    /* list-style-type: lower-alpha; */
+    }
+
+  /* .element {
+    width: 100px;
+    height: 100px;
+
+  } */
+
+  figcaption {
+    color: #c5e1a5;
+  }
+
+  label {
+    color: white;
+  }
+
+  a {
+    color: #654321;
+  }
+
+  a:visited {
+    color: #654321;
+  }
+
+  a:hover {
+    color: #006400;
+  }
+
+  a:active {
+    color: #006400;
+  }
