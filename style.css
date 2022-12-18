@@ -3,7 +3,7 @@
   }
 
   body {
-    background-image: url(metstausta.jpg);
+    background-image: url(tausta.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -23,11 +23,11 @@
   }
 
   #sidebar {
-    height: 100vh;
+    height: 200vh;
     background-color: black;
     float: left;
     width: 20%;
-    opacity: 50%;
+    opacity: 65%;
     padding: 20px;
   }
 
@@ -59,9 +59,9 @@
 
   #section {
     background-color: black;
-    height: 100vh;
-    padding: 50px 160px;
-    opacity: 90%;
+    height: 200vh;
+    padding: 50px 200px;
+    opacity: 93%;
     float: left;
     width: 80%;
 
@@ -96,25 +96,22 @@
   h1 {
     color: white;
     font-size: 30px;
-    padding: 10px;
+    padding: 10px 150px 10px 150px;
   }
 
-  h2, h3 {
-    background-color: white;
-    font-size: 25px;
+  h2, h3, h4, h5, h6 {
+    color: white;
+    font-size: 20px;
     opacity: 60%;
+    padding-left: 150px;
+    padding-right: 150px;
   }
-
-  h4 {
-      color: #c5e1a5;
-      font-size: 20px;
-    }
 
   p {
-    color: #c5e1a5;
+    color: white;
     font-size: 15px;
-    /* border: 1px solid black;
-    border-radius: 2px; */
+    padding-left: 400px;
+    padding-right: 400px;
   }
 
   ul {
@@ -137,14 +134,9 @@
     /* list-style-type: lower-alpha; */
     }
 
-  /* .element {
-    width: 100px;
-    height: 100px;
-
-  } */
-
   figcaption {
-    color: #c5e1a5;
+    color: white;
+    font-size: 10px;
   }
 
   label {
