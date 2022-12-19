@@ -13,6 +13,11 @@
     margin-right: auto;
   }
 
+  .container-fluid {
+    text-align: center;
+    color: white;
+  }
+
   #header {
     background-color: black;
     padding: 70px;
@@ -24,7 +29,7 @@
     height: 200vh;
     background-color: black;
     float: left;
-    width: 20%;
+    width: 14%;
     opacity: 65%;
     padding: 20px;
   }
@@ -61,7 +66,7 @@
     padding: 50px 200px;
     opacity: 93%;
     float: left;
-    width: 80%;
+    width: 86%;
 
   }
 
@@ -73,22 +78,6 @@
     bottom: 0;
     width: inherit;
     height: 50px;
-  }
-
-  .omaosoite {
-    color: white;
-  }
-
-  .omaosoite:visited {
-    color: white;
-  }
-
-  .omaosoite:hover {
-    color: white;
-  }
-
-  .omaosoite:active {
-    color: white;
   }
 
   h1 {
@@ -129,7 +118,6 @@
     font-size: 15px;
     display: inline-block;
     text-align: left;
-    /* list-style-type: lower-alpha; */
     }
 
   figcaption {
@@ -141,18 +129,18 @@
     color: white;
   }
 
-  a {
+  .navi {
     color: #654321;
   }
 
-  a:visited {
+  .navi:visited {
     color: #654321;
   }
 
-  a:hover {
+  .navi:hover {
     color: #006400;
   }
 
-  a:active {
+  .navi:active {
     color: #006400;
   }
