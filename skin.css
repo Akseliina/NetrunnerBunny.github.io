@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+.row {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  opacity: 95%;
+
+}
+
+.container {
+  padding: 100px;
+  color: white;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  max-height: 400px;
+
+}
+
+body {
+    background-image: url(pics/tausta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

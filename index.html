@@ -1,91 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
   <head>
     <title>Japaninmatkailu</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="skin.css">
 
-        <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-</head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
   <body>
-    <main>
-    <div class="container-fluid">
-      <div id="header">
-        <header>
-          <h1 class="otsikko">Kun osa sielustasi jäi Japaniin pysyvästi</h1>
-        </header>
+
+   <nav class=" navbar navbar-expand-lg fixed-top navbar-dark bg-dark flex-column flex-md-row">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item active">
+          <a class="nav-link" href="index.html">Etusivu <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="kulttuuri.html">Kulttuuri ja mitä odottaa Japanilta</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="suunnittelu.html">Matkan suunnittelu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="paikat.html">Paikat ja nähtävyydet</a>
+      </li>
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="paikat.html" id="navbarDropdown" role="button" data-toggle="dropdown">
+          Kaupunkeja ja kyliä
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="tokio.html">Tokio</a>
+           <a class="dropdown-item" href="kioto.html">Kioto</a>
+           <a class="dropdown-item" href="empty.html">Nara</a>
+           <a class="dropdown-item" href="okinawa.html">Okinawa</a>
+           <a class="dropdown-item" href="empty.html">Osaka</a>
+           <a class="dropdown-item" href="empty.html">Takayama</a>
+         </div>
+        </li>
+     </ul>
+    </div>
+  </nav>
+
+      <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center"><h1>Kun osa sielustani jäi pysyvästi Japaniin</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">Tällä sivulla kerron omista menneistä ja tulevista matkoistani Japaniin. Niiden suunnittelusta, toteutuksesta, kokemuksista ja yleistä pohdintaa ja nippelitietoa.</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center"><h2>Ponnahdus Japanilaiseen kulttuuriin</h2></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">Taisin joskus neljännellä luokalla ensimmäisen kerran tutustua Japanilaiseen kulttuuriin, kun lapsuuden ystäväni kanssa saimme Hopeanuoli videokasetteja haltuumme. Hieman myöhemmin taisin ostaa ensimmäisen mangasarjakuvakirjan, hieman vahingossa, Hyvinkäällä sijaistevasta K-supermarketista. Siitä sitten heräsi kiinnostus mangaa ja animea kohtaan.</div>
+        <div class="col-sm-4">Ensimmäisen matkani Japaniin tein vuonna 2014 silloisen kumppanini kanssa valmistuttuani ammattikoulusta. Sen jälkeen olen tehnyt matkat vuosina 2018 ja 2019. 2018 matkani oli ensimmäinen sooloreissuni ja koin sen merkittävimmäksi matkoistani. 2019 matka oli ennen koronapandemian alkua ja palasinkin juuri ennen Japanin rajojen sulkeutumista.</div>
+        <div class="col-sm-4">Olen tutustunut Japanin kieleen ja kulttuuriin niin omatoimisesti kuin opiskellut yläasteella sekä ammattikorkeakoulussa hieman kieltä ja kulttuuria. Pidän Japanista, sen ihmisistä ja sen kulttuurista. Pitkään haaveilin muuttavani sinne tulevaisuudessa ja saavani työtä sieltä, mutta tässä vaiheessa luulen että realiteetti on iskenyt jo vasten kasvoja enkä usko ikinä näin tapahtuvan.</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center"><h3>Miksi matkustaa kerta toisensa jälkeen samaan maahan?</h3></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">Maapallolla on tällä hetkellä 195 maata. Matkakohdetta valitessa voisi näistä valita ihan minkä tahansa, mutta silti jostain syystä haluan aina palata Japaniin. Japaniin matkustaminen tuntuu joka kerta kuin palaisi kotiin.</div>
+      </div>
+      <img src="pics/peura.jpg" class="rounded-circle" alt="lähikuva peurasta katsomassa kameraan">
+      <div class="col-sm-12 text-center">
+        <button type="button" class="btn btn-success">Anna peuralle keksi</button>
+        <button type="button" class="btn btn-secondary">Ei tällä kertaa</button>
       </div>
     </div>
-    <div class="container-fluid">
-      <div id="nav">
-        <nav>
-          <ul class="navilista">
-            <li><a href="index.html" class="navi">Etusivu</a></li>
-            <li><a href="second.html" class="navi">Paikat</a></li>
-            <li><a href="third.html" class="navi">Matkan suunnittelu</a></li>
-            <li><a href="fourth.html" class="navi">Kulttuuri ja mitä odottaa turistina</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div id="sidebar">
-        <ul class="sidebar">
-          <li><a class="navi" href="https://japanesenameconverter.nolanlawson.com/" target="_blank">Mikä sinun nimesi olisi japaniksi?</a></li>
-          <li><a class="navi" href="https://www.nihongomaster.com/blog/21-essential-japanese-travel-phrases" target="_blank">Japanilaisia turistilauseita</a>
-          <li><a class="navi" href="https://www.japan-rail-pass.com/" target="_blank">Japan Rail Pass</a></li>
-        </ul>
-      </div>
-    </div>
-      <div class="container-fluid">
-      <div id="section">
-        <section>
-          <h2 class="otsikko">Tällä sivulla kerron omista menneistä ja tulevista matkoistani Japaniin. Niiden suunnittelusta, toteutuksesta, kokemuksista ja yleistä pohdintaa ja nippelitietoa.</h2>
-          <p>Kiinnostukseni Japaniin heräsi jo alakouluikäisenä. Ensimmäisen matkani Japaniin tein vuonna 2014 silloisen kumppanini kanssa valmistuttuani ammattikoulusta. Sen jälkeen olen tehnyt matkat vuosina 2018 ja 2019. 2018 matkani oli ensimmäinen sooloreissuni ja koin sen merkittävimmäksi matkoistani. 2019 matka oli ennen koronapandemian alkua ja palasinkin juuri ennen Japanin rajojen sulkeutumista. </p>
-          <p>Olen tutustunut Japanin kieleen ja kulttuuriin niin omatoimisesti kuin opiskellut yläasteella sekä ammattikorkeakoulussa hieman kieltä ja kulttuuria. Pidän Japanista, sen ihmisistä ja sen kulttuurista. Pitkään haaveilin muuttavani sinne tulevaisuudessa ja saavani työtä sieltä, mutta tässä vaiheessa luulen että realiteetti on iskenyt jo vasten kasvoja enkä usko ikinä näin tapahtuvan.</p>
-          <p>Kyse ei ole siitä ettei se olisi mahdollista, mutta en usko sen olevan sitä mitä haluan. Vaikka rakastan Japania ja sen kulttuuria on se todella erilaista omaani verrattuna. Olen kuitenkin varma siitä että tulen tekemään sinne vielä paljon matkoja, lyhyitä ja hieman pidempiäkin, mutta pysyvää elämää en enää pyri sinne rakentamaan.</p>
-          <h3 class="otsikko">Miksi käydä samassa maassa kerta toisensa jälkeen?</h3>
-          <p>Maapallolla on tällä hetkellä 195 maata. Matkakohdetta valitessa voisi näistä valita ihan minkä tahansa, mutta silti jostain syystä haluan aina palata Japaniin.
-          <p>Japaniin matkustaminen tuntuu kuin palaisi kotiin.</p>
-          <p>Osa niistä syistä, joiden vuoksi haluan aina takaisin Japaniin</p>
-            <ul class="list">
-              <li>Kulttuuri</li>
-              <li>Ruoka</li>
-              <li>Puutarhat</li>
-              <li>Ihmiset</li>
-              <li>Nähtävyydet</li>
-              <li>Yöelämä ja baarit</li>
-              <li>Maaseutu</li>
-              <li>Siisteys</li>
-            </ul>
-            <p>Japanissa on niin paljon paikkoja, niin paljon nähtävää, ja haluan päästä käymään kaikkialla. En varmasti tule ikinä pääsemään käymään läheskään kaikissa paikoissa Japanissa, joissa haluaisin, mutta toivon silti pääseväni edes muutamiin näistä.</p>
-          <figure>
-            <img src="peura.jpg" class="rounded-circle" class="img-fluid" alt="Ruskea peura kurottamassa uteliaana kameraa kohden" height="300">
-            <figcaption>Peura kerjäämässä keksejä Japanin Naran alueella</figcaption>
-          </figure>
-          <button type="button" class="btn btn-success">Anna peuralle keksi</button>
-          <button type="button" class="btn btn-secondary">Ei tällä kertaa</button>
-          <h4 class="otsikko">Tuntuu etten ikinä saa tarpeeksi Japanista</h4>
-          <p>Kolme paikkaa joihin palaan, joka matkalla:</p>
-            <ol class="list2">
-              <li>Tokyo</li>
-              <li>Kyoto</li>
-              <li>Nara</li>
-            </ol>
-          <p>
-        </section>
-      </div>
-    </div>
-    </main>
-    <div class="container-fluid">
-    <div id="footer">
-      <footer>
-        <a>&#169; Petra Koskela</a>
-      </footer>
-    </div>
-  </div>
-</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>

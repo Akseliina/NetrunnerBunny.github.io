@@ -33,29 +33,6 @@
     min-height: 120vh;
   }
 
-  #nav {
-    background-color: white;
-    opacity: 65%;
-  }
-
-  #section {
-    background-color: black;
-    opacity: 93%;
-    float: left;
-    width: 86%;
-    min-height: 120vh;
-  }
-
-  #footer {
-    background-color: black;
-    padding: 50px;
-    opacity: 10%;
-    position: fixed;
-    bottom: 0;
-    width: inherit;
-    height: 50px;
-  }
-
   .sidebar {
     list-style: none;
     text-decoration: none;
@@ -70,6 +47,30 @@
     font-size: 15px;
     color: white;
     padding: 20px;
+  }
+
+  #nav {
+    background-color: white;
+    opacity: 65%;
+  }
+
+  #section {
+    background-color: black;
+    opacity: 93%;
+    float: left;
+    width: 86%;
+    min-height: 120vh;
+
+  }
+
+  #footer {
+    background-color: black;
+    padding: 50px;
+    opacity: 10%;
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    height: 50px;
   }
 
   h1 {
